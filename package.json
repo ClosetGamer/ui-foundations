@@ -1,16 +1,10 @@
-using UnityEngine;
-
-public class package.json : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+  "name": "com.closetames.sharedui",
+  "version": "1.0.0",
+  "displayName": "Shared UI Toolkit",
+  "unity": "2022.3",
+  "description": "Shared drag-drop UI components used across projects.",
+  "dependencies": {
+    "com.sirenix.odin-inspector": "3.0.0"
+  }
 }
