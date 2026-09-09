@@ -3,8 +3,5 @@
   "version": "1.0.0",
   "displayName": "Shared UI Toolkit",
   "unity": "2022.3",
-  "description": "Shared drag-drop UI components used across projects.",
-  "dependencies": {
-    "com.sirenix.odin-inspector": "3.0.0"
-  }
+  "description": "Shared drag-drop UI components used across projects."
 }
