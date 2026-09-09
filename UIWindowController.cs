@@ -38,10 +38,10 @@ public class UIWindowController : MonoBehaviour
     [SerializeField] Sprite windowIcon = null;
     [PropertyOrder(-9)]
     [ToggleLeft]
-    [SerializeField] internal bool debugMessages;
+    [SerializeField] public bool debugMessages;
     [PropertyOrder(-9)]
     [ToggleLeft]
-    [SerializeField] internal bool debugLateUpdateMessages;
+    [SerializeField] public bool debugLateUpdateMessages;
     // ── Tabs ──────────────────────────────────────────────────────────────
     public string FriendlyTitle => friendlyTitle;
     public Sprite WindowIcon => windowIcon;
