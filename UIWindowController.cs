@@ -152,14 +152,14 @@ public class UIWindowController : MonoBehaviour
             SetWindowState(open, true);
         }
 
-        if (disableCameraControlOnOpen)
-            CameraBridge.SetInputEnabled(!open);
+        //if (disableCameraControlOnOpen)
+        //    CameraBridge.SetInputEnabled(!open);
 
-        if (deselectBlocksOnOpen && open)
-            SelectionController.RequestDeselect();
+        //if (deselectBlocksOnOpen && open)
+        //    SelectionController.RequestDeselect();
 
-        if (disableBlockMovementOnOpen)
-            SelectionController.SetMovementEnabled(!open);
+        //if (disableBlockMovementOnOpen)
+        //    SelectionController.SetMovementEnabled(!open);
     }
 
     // ── Animation ─────────────────────────────────────────────────────────
